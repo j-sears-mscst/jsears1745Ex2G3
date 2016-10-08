@@ -1,0 +1,170 @@
+10/08/2016 16:56:09 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Folder Creation Check
+10/08/2016 16:56:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep File Creation Check
+10/08/2016 16:56:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep File Deletion Check
+10/08/2016 16:56:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Folder Deletion Check
+10/08/2016 16:56:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Checking IIS configuration
+10/08/2016 16:56:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Database Script DotNetNuke.Schema
+10/08/2016 16:56:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Providers\DataProviders\SqlDataProvider\DotNetNuke.Schema.SqlDataProvider
+10/08/2016 16:56:19 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Providers\DataProviders\SqlDataProvider\DotNetNuke.Schema.SqlDataProvider
+10/08/2016 16:56:19 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Database Script DotNetNuke.Data
+10/08/2016 16:56:19 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Providers\DataProviders\SqlDataProvider\DotNetNuke.Data.SqlDataProvider
+10/08/2016 16:56:36 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Providers\DataProviders\SqlDataProvider\DotNetNuke.Data.SqlDataProvider
+10/08/2016 16:56:36 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Membership Database Scripts
+10/08/2016 16:56:36 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallMemberRoleProvider
+10/08/2016 16:56:37 [INFO] DotNetNuke.Services.Upgrade.Upgrade End InstallMemberRoleProvider
+10/08/2016 16:56:37 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Applying Upgrade Script 08.00.04.01
+10/08/2016 16:56:37 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Providers\DataProviders\SqlDataProvider\08.00.04.01.SqlDataProvider
+10/08/2016 16:56:37 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Providers\DataProviders\SqlDataProvider\08.00.04.01.SqlDataProvider
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Providers\DataProviders\SqlDataProvider\08.00.04.01.SqlDataProvider
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Providers\DataProviders\SqlDataProvider\08.00.04.01.SqlDataProvider
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Upgrading Application to 8.0.4.1
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start Application Upgrades: 8.0.4
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Updating Config for 8.0.4.1
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:08.00.04.01
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:8.0.4
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:8.0.4
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:08.00.04.01
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Deleting Older Files for 8.0.4.1
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start DeleteFiles:08.00.04.01
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Upgrading Application
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DDRMenu_08.00.04_Install.zip
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DDRMenu_08.00.04_Install.zip
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_ConfigurationManager_08.00.04_Install.zip
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_ConfigurationManager_08.00.04_Install.zip
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddHostPage:Configuration Manager
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPage:Configuration Manager
+10/08/2016 16:56:38 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:114
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:114
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_Console_08.00.04_Install.zip
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_Console_08.00.04_Install.zip
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_CoreMessaging_08.00.04_Install.zip
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_CoreMessaging_08.00.04_Install.zip
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_Dashboard_08.00.04_Install.zip
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_Dashboard_08.00.04_Install.zip
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddHostPage:Dashboard
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPage:Dashboard
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:116
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:116
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_DigitalAssetsManagement_08.00.04_Install.zip
+10/08/2016 16:56:39 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_DigitalAssetsManagement_08.00.04_Install.zip
+10/08/2016 16:56:40 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_GoogleAnalytics_08.00.04_Install.zip
+10/08/2016 16:56:40 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_GoogleAnalytics_08.00.04_Install.zip
+10/08/2016 16:56:40 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_HtmlEditorManager_08.00.04_Install.zip
+10/08/2016 16:56:40 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_HtmlEditorManager_08.00.04_Install.zip
+10/08/2016 16:56:40 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_HTML_08.00.04_Install.zip
+10/08/2016 16:56:40 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_HTML_08.00.04_Install.zip
+10/08/2016 16:56:41 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_Journal_08.00.04_Install.zip
+10/08/2016 16:56:41 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_Journal_08.00.04_Install.zip
+10/08/2016 16:56:41 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_Languages_08.00.04_Install.zip
+10/08/2016 16:56:41 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_Languages_08.00.04_Install.zip
+10/08/2016 16:56:42 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_Lists_08.00.04_Install.zip
+10/08/2016 16:56:42 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_Lists_08.00.04_Install.zip
+10/08/2016 16:56:43 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddHostPage:Lists
+10/08/2016 16:56:43 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPage:Lists
+10/08/2016 16:56:43 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:90
+10/08/2016 16:56:43 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:90
+10/08/2016 16:56:43 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_LogViewer_08.00.04_Install.zip
+10/08/2016 16:56:43 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_LogViewer_08.00.04_Install.zip
+10/08/2016 16:56:44 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_MemberDirectory_08.00.04_Install.zip
+10/08/2016 16:56:44 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_MemberDirectory_08.00.04_Install.zip
+10/08/2016 16:56:44 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_MobileManagement_08.00.04_Install.zip
+10/08/2016 16:56:44 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_MobileManagement_08.00.04_Install.zip
+10/08/2016 16:56:44 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_ModuleCreator_08.00.04_Install.zip
+10/08/2016 16:56:44 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_ModuleCreator_08.00.04_Install.zip
+10/08/2016 16:56:44 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_PreviewProfileManagement_08.00.04_Install.zip
+10/08/2016 16:56:44 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_PreviewProfileManagement_08.00.04_Install.zip
+10/08/2016 16:56:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=key
+10/08/2016 16:56:44 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_RazorHost_08.00.04_Install.zip
+10/08/2016 16:56:44 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_RazorHost_08.00.04_Install.zip
+10/08/2016 16:56:45 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_RecycleBin_08.00.04_Install.zip
+10/08/2016 16:56:45 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_RecycleBin_08.00.04_Install.zip
+10/08/2016 16:56:45 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_Sitemap_08.00.04_Install.zip
+10/08/2016 16:56:45 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_Sitemap_08.00.04_Install.zip
+10/08/2016 16:56:45 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_SiteWizard_08.00.04_Install.zip
+10/08/2016 16:56:45 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_SiteWizard_08.00.04_Install.zip
+10/08/2016 16:56:45 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_SocialGroups_08.00.04_Install.zip
+10/08/2016 16:56:45 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_SocialGroups_08.00.04_Install.zip
+10/08/2016 16:56:45 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_Sql_08.00.04_Install.zip
+10/08/2016 16:56:45 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_Sql_08.00.04_Install.zip
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddHostPage:SQL
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPage:SQL
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:65
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:65
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_Tabs_08.00.04_Install.zip
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_Tabs_08.00.04_Install.zip
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_Taxonomy_08.00.04_Install.zip
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_Taxonomy_08.00.04_Install.zip
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_Themes_08.00.04_Install.zip
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_Themes_08.00.04_Install.zip
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Library - DNNCE_UrlManagement_08.00.04_Install.zip
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\DNNCE_UrlManagement_08.00.04_Install.zip
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - SecurityAnalyzer_08.00.02_Install.zip
+10/08/2016 16:56:46 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\SecurityAnalyzer_08.00.02_Install.zip
+10/08/2016 16:56:47 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Library - Telerik_08.00.01_Install.zip
+10/08/2016 16:56:47 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Module\Telerik_08.00.01_Install.zip
+10/08/2016 16:56:57 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+10/08/2016 16:56:57 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+10/08/2016 16:56:57 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+10/08/2016 16:56:57 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Skin - Skin_Xcillion_1.0.0.zip
+10/08/2016 16:56:57 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Skin\Skin_Xcillion_1.0.0.zip
+10/08/2016 16:56:58 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing JavaScript_Library - jQuery.zip
+10/08/2016 16:56:58 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\JavaScriptLibrary\jQuery.zip
+10/08/2016 16:56:58 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing JavaScript_Library - Knockout.zip
+10/08/2016 16:56:58 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\JavaScriptLibrary\Knockout.zip
+10/08/2016 16:56:58 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Provider - DNNConnect.CKEditorProvider_01.00.03_Install.zip
+10/08/2016 16:56:58 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Provider\DNNConnect.CKEditorProvider_01.00.03_Install.zip
+10/08/2016 16:57:03 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+10/08/2016 16:57:03 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Provider - FiftyOneClientCapabilityProvider_08.00.04_Install.zip
+10/08/2016 16:57:03 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\Provider\FiftyOneClientCapabilityProvider_08.00.04_Install.zip
+10/08/2016 16:57:06 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+10/08/2016 16:57:06 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+10/08/2016 16:57:06 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+10/08/2016 16:57:06 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateAttribute:attributeName=defaultProvider
+10/08/2016 16:57:06 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+10/08/2016 16:57:06 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing JavaScript_Library - jQueryMigrate.zip
+10/08/2016 16:57:06 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\JavaScriptLibrary\jQueryMigrate.zip
+10/08/2016 16:57:06 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing JavaScript_Library - jQueryUI.zip
+10/08/2016 16:57:06 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\JavaScriptLibrary\jQueryUI.zip
+10/08/2016 16:57:06 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing JavaScript_Library - KnockoutMapping.zip
+10/08/2016 16:57:06 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:C:\Users\John.Sears\Documents\Visual Studio 2015\Projects\jsears1745Ex2G1\Install\JavaScriptLibrary\KnockoutMapping.zip
+10/08/2016 16:57:07 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Initializing Host Settings
+10/08/2016 16:57:17 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Creating Site [jsears1745Ex2G1]
+10/08/2016 16:57:17 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start CreateUserInfo:host
+10/08/2016 16:57:26 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:13
+10/08/2016 16:57:26 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:13
+10/08/2016 16:57:27 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Create Super User
+10/08/2016 16:57:27 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Creating Super Userhost
+10/08/2016 17:25:20 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddHostPage:File Management
+10/08/2016 17:25:20 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPage:File Management
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:117
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:117
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddAdminPage:File Management
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPagePermission:View
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPagePermission:Edit
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPage:File Management
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:117
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:117
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveHostPage:File Manager
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveAdminPages://Admin//FileManager
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddHostPage:HTML Editor Manager
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPage:HTML Editor Manager
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveModule:RadEditor Manager
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:119
+10/08/2016 17:25:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:119
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:123
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:123
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:124
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:124
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddAdminPage:Taxonomy
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPagePermission:View
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPagePermission:Edit
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPage:Taxonomy
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:128
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:128
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveAdminPages://Admin//Skins
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveHostPage:Device Detection Management
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddHostPage:Device Detection Management
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPage:Device Detection Management
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:132
+10/08/2016 17:25:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:132
